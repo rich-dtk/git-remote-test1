@@ -1,0 +1,8 @@
+---
+module: dtk2153
+dsl_version: 1.0.0
+components:
+  dtk2153:
+    actions:
+      create:
+        puppet_class: dtk2153
