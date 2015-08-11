@@ -1,0 +1,15 @@
+---
+module: dtk2110
+dsl_version: 1.0.0
+components:
+  dtk2110:
+    attributes:
+      name:
+        type: string
+        required: true
+    actions:
+      create:
+        puppet_definition: dtk2110
+      touch:
+        commands:
+        - RUN touch /tmp/action-{{name}}
